@@ -1,0 +1,36 @@
+Most popular layer system for networking is called : OSI model -> Open Systems Interconnection model.
+It has seven(7) layers:
+    * Application - 7
+    * Presentation - 6
+    * Session - 5
+    * Transport - 4
+    * Network - 3
+    * Data Link - 2
+    * Physical - 1
+
+Another most common layer system for networking is TCP/IP model 
+    -> Transmission Control Protocol / Internet Protocol model.
+It has four(4) layers:
+    * Process / Application - 4 (HTTP, SMTP, FTP)
+        - Application
+        - Presentation
+        - A bit of Session
+    * Host-to-Host - 3 (TCP and UPD)
+        - a bit of Session
+        - Transport
+    * Internet - 2
+        - Network
+    * Network Access - 1
+        - a very bit of Network
+        - Data Link
+        - Physical
+
+Domain names: DNS - Domain Name System.
+Name representing an IP address.
+    -> OpenDNS : 208.67.222.222
+                 208.67.220.222
+
+Port numbers :
+    Port numbers are stored as unsigned 16-bits integers.
+
+To look our local ip addressess : [ipconfig] [ifconfig] [`ip addr`]
